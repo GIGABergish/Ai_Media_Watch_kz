@@ -1,0 +1,28 @@
+# Optional heavy lanes — installing these upgrades the engine from "lite" to
+# "hybrid" / "full" multimodal mode (ASR + OCR + vision). Every one of these is
+# imported LAZILY and degrades gracefully when absent, so this file is optional.
+#
+# NOTE: OCR (pytesseract) ALSO requires the system Tesseract binary on PATH
+#   (e.g. `apt install tesseract-ocr tesseract-ocr-rus` or the Windows installer
+#   from https://github.com/UB-Mannheim/tesseract). Without it the OCR lane
+#   degrades to a no-op even with pytesseract installed.
+#
+# Install on top of the core requirements:
+#   pip install -r requirements.txt -r requirements-ml.txt
+
+# Frame/audio extraction (bundles an ffmpeg binary — no system install needed).
+imageio-ffmpeg>=0.4.9
+
+# Image handling for OCR + vision.
+Pillow>=10
+numpy>=1.24
+
+# Speech-to-text (ASR lane).
+faster-whisper>=1.0
+
+# OCR lane (needs the system tesseract binary too — see note above).
+pytesseract>=0.3.10
+
+# Zero-shot vision lane (CLIP).
+torch>=2.1
+open-clip-torch>=2.24

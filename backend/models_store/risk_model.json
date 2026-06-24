@@ -1,0 +1,37 @@
+{
+  "version": "amw-risk-0.1.0",
+  "input_dim": 4128,
+  "hidden": 256,
+  "temperature": 0.2500470187689324,
+  "category_keys": [
+    "illegal_gambling",
+    "financial_pyramid",
+    "investment_scam",
+    "educational",
+    "educational_antifraud",
+    "suspicious_other",
+    "no_violation"
+  ],
+  "dimension_keys": [
+    "profit",
+    "urgency",
+    "gambling",
+    "referral",
+    "messenger",
+    "visual",
+    "reused",
+    "hashtags"
+  ],
+  "model_path": "C:\\Users\\kalia\\OneDrive\\Рабочий стол\\AI-Media-Watch-main\\backend\\models_store\\risk_model.npz",
+  "cfg": {
+    "hash_dim": 4096,
+    "numeric_dim": 32,
+    "hidden": 256,
+    "dropout": 0.1,
+    "seed": 1337,
+    "version": "amw-risk-0.1.0",
+    "calibration": "temperature",
+    "uncertain_low": 0.4,
+    "uncertain_high": 0.6
+  }
+}

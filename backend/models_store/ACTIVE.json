@@ -1,0 +1,19 @@
+{
+  "version": "amw-risk-0.1.0",
+  "saved_at": "2026-06-24T09:06:35.130009+00:00",
+  "model_path": "C:\\Users\\kalia\\OneDrive\\Рабочий стол\\AI-Media-Watch-main\\backend\\models_store\\risk_model.npz",
+  "meta_path": "C:\\Users\\kalia\\OneDrive\\Рабочий стол\\AI-Media-Watch-main\\backend\\models_store\\risk_model.json",
+  "version_dir": "C:\\Users\\kalia\\OneDrive\\Рабочий стол\\AI-Media-Watch-main\\backend\\models_store\\versions\\amw-risk-0.1.0",
+  "metrics": {
+    "version": "amw-risk-0.1.0",
+    "n_total": 4006,
+    "n_train": 3405,
+    "n_val": 601,
+    "scam_rate": 0.5341987019470794,
+    "eval_on": "val",
+    "temperature": 0.2500470187689324,
+    "calibration": "temperature",
+    "ece": 0.008782336024630183,
+    "dim_mae_mean": 0.017325465434531118
+  }
+}

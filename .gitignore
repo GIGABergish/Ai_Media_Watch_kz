@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Vite cache
+.vite/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local config (permissions etc.)
+.claude
+
+# Python / backend engine
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Engine runtime data (uploads + SQLite case store)
+backend/data/
+
+# Trained-model version history — keep the active artifact, drop the copies
+backend/models_store/versions/

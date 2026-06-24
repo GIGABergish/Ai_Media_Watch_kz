@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Engine runtime data (uploads, extracted audio/keyframes, SQLite store)
+data/
+!data/.gitkeep
+
+# Local env overrides
+.env
